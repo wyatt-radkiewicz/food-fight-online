@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Modules">
+      <UniqueIdentifier>{c3d8790f-b13c-4fca-8110-21f828049d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules">
+      <UniqueIdentifier>{794246db-f31e-4e97-9191-18b4154da2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drawing">
+      <UniqueIdentifier>{087a9239-8238-4246-be74-af71900b7906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawing">
+      <UniqueIdentifier>{4f89d3b8-7afa-4328-b1a3-d99cbfbc0aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{ef3cf9f2-52bf-4e09-adc0-f9c9242312c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{b2b317c8-3229-4018-9d05-60258d3dd0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{d9a9c07a-b481-4170-bc57-080307ab18f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{c5488ea2-b6f8-4982-bc60-f2035f913299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\States">
+      <UniqueIdentifier>{f45eb124-a12e-4c49-b3f0-3788f57a1da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\States">
+      <UniqueIdentifier>{7797e503-0704-4f2a-8eb7-98330e7cae6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModule.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModules.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>Header Files\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="InputModule.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioModule.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceController.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkModule.h">
+      <Filter>Header Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientServer.h">
+      <Filter>Header Files\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitleState.h">
+      <Filter>Header Files\Game\States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModule.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="InputModule.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioModule.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkModule.cpp">
+      <Filter>Source Files\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Source Files\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="cClient.cpp">
+      <Filter>Source Files\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientServer.cpp">
+      <Filter>Source Files\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitleState.cpp">
+      <Filter>Source Files\Game\States</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
